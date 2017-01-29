@@ -1,1 +1,18 @@
-/*created in command line*/
+/*this file was created in the terminal*/
+p {
+	font-family: "Orbitron";
+	text-transform: uppercase;
+	margin-left: 1.66%;
+	margin-bottom: 0;
+	font-size: 23px;
+	font-weight: 900;
+	border-bottom: 2px solid #d6d8db;
+	width: 30%;
+	padding-bottom: 5px;
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
