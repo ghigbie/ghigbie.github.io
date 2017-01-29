@@ -1,0 +1,87 @@
+/*file created in command line*/
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+.header{
+	color: #ffffff;
+	background: #0dc8e5;
+}
+
+
+#container{
+	max-width: 600px;
+	margin: 20px auto; /*auto on left and right and 20px on top and bottom*/
+	background: #232323;
+
+}
+
+
+h1 {
+	text-align: center;
+	color: #ffffff;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0; /*addes padding to top and bottom only*/
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 0.7s;
+	-webkit-transition: background 0.6s; /*support for saffari*/
+	-moz-transition: background 0.6s; /*support for mozilla*/
+}
+
+.fadeOut{
+	background: #232323;
+}
+
+#message{
+	color: #000000;
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe{
+	background: #ffffff;
+	height: 30px;
+	text-align: center;
+}
+
+button{
+	border: none;
+	background: #ffffff;
+	text-transform: uppercase;
+	height: 100%;/*sets height to 100% of containing element*/
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.6s; /*support for saffari*/
+	-moz-transition: background 0.6s;  /*support for mozilla*/
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
