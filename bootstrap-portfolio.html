@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio of George Higbie</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:500,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bootstrapPortfolioAssets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrapPortfolioAssets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="bootstrapPortfolioAssets/css/media.css">
+	<script type="text/javascript" src="bootstrapPortfolioAssets/js/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="bootstrapPortfolioAssets/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-md-6">
+				<!--<img class="img-responsive" src="images/logo.png" alt="udacity logo">-->
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1>George Higbie</h1>
+				<h4>Front End Developer | Mobile Developer</h4>
+			</div>
+		</header>
+		<div class="row">
+			<hr>
+		</div>
+		<section class="row">
+			<img class="img-responsive" src="bootstrapPortfolioAssets/images/code1.jpg" alt="code displayed as main image">
+		</section>
+		<header id="row1" class="row">
+			<h2 class="title-text">Featured Websites</h2>
+		</header>
+		<article class="row text-center text-media">
+			<div class="col-md-4">
+				<img class="img-responsive" src="bootstrapPortfolioAssets/images/dogs.png"
+				alt="specific portfolio sample" data-toggle="modal" data-target="#project1">
+				<h3 class="text-uppercase">Bootstrap Gallery</h3>
+				<p><a href="https://ghigbie.github.io/bootstrapImageGallery.html">Link to project</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive" src="bootstrapPortfolioAssets/images/game.png" alt="specific portfoilio sample" data-toggle="modal" data-target="#project2">
+				<h3 class="text-uppercase">JavaScript Game</h3>
+				<p><a href="https://ghigbie.github.io/rgbColorGame.html">Link to project</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive" src="bootstrapPortfolioAssets/images/app.png" alt="specific porfolio sample" data-toggle="modal" data-target="#project3">
+				<h3 class="text-uppercase">jQuery Web App</h3>
+				<p><a href="https://ghigbie.github.io/todoAppJQuery.html">Link to project</a></p>
+			</div>
+		</article>
+		<hr>
+
+		<header id="row2" class="row">
+			<h2 class="title-text">Android Applications</h2>
+		</header>
+		<article class="row text-center text-media">
+			<div class="col-md-4">
+				<img class="img-responsive" src="bootstrapPortfolioAssets/images/witch.png" data-target="#project4">
+				<h3 class="text-uppercase">Stopwitch</h3>
+				<p><a href="https://play.google.com/store/apps/details?id=com.geogehigbie.stopwitch3">Link to Google Play</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive" src="bootstrapPortfolioAssets/images/blaster.png" data-target="#project5">
+				<h3 class="text-uppercase">Tukey Blaster</h3>
+				<p><a href="https://play.google.com/store/apps/details?id=com.geogehigbie.turkeyshoot3">Link to Google Play</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive" src="bootstrapPortfolioAssets/images/turkeytimer.png" data-target="#project6">
+				<h3 class="text-uppercase">Turkey Timer</h3>
+				<p><a href="https://play.google.com/store/apps/details?id=com.geogehigbie.turkeytimestopwatch2">Link to Google Play</a></p>
+			</div>
+		</article>
+		<footer class="row">
+			<hr>
+		</footer>
+	</div>
+<!-- Modal 1 -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="appify" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="appify">Bootstrap Gallery</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="bootstrapPortfolioAssets/images/dogs.png" alt="animal picture">
+        This is an image gallery that makes use of the bootstrap framework HTML5, and CSS3. This combination creates a nice gallery that is responsive to multiple screen sizes. It also looks great on mobile devices. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="sunflower" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="sunflower">JavaScript Game</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="bootstrapPortfolioAssets/images/game.png" alt="animal picture">
+        This is a color guessing game that makes use of HTML5, CSS3, and JavaScript. There are no frameworks used in this game. All of the logic is created in pure JavaScript.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="bokeh" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="bokeh">jQuery Web App</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="bootstrapPortfolioAssets/images/app.png" alt="animal picture">
+        This is a web application to-do list. It makes use of HTML5, CSS3, JavaScript, and jQuery. It also uses CSS transitions and animations extensively.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="bokeh" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="bokeh">Bokeh Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="bootstrapPortfolioAssets/images/witch.png" alt="animal picture">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="bokeh" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="bokeh">Bokeh Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="bootstrapPortfolioAssets/images/blaster.png" alt="animal picture">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="bokeh" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="bokeh">Bokeh Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="bootstrapPortfolioAssets/images/turkeytimer.png" alt="animal picture">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
