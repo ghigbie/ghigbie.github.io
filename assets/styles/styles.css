@@ -1,0 +1,115 @@
+		
+			body {
+				background-color: #f3f4ef
+			}	
+			
+			img {
+				border: none;
+			}
+			
+			h1{
+				font-family: verdana, sans-serif;
+				font-size: 250%;
+			}
+			
+			.banner {
+				width: 100%;
+				margin-bottom: 0.15%;
+			}
+			
+			.hero {
+				width: 100%;
+			}
+			
+			.rowcontainer {
+				width: 100%; 
+				display: inline-block;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 40px
+			}
+			
+			.row1 {
+				margin-right: 50px;
+				display: inline-block;
+			}
+			
+			.image-row {
+				width: 200px; 
+				height: 200px;
+				opacity:0.8; 
+			}
+			
+			.image-row:hover{
+				opacity:1;
+				-webkit-transform: scale(1.2);
+				-ms-transform: scale(1.2);
+				transform: scale(1.2);
+			}
+			
+			
+			.heading {
+				font-family: verdana, sans-serif;
+				text-align: center;
+				vertical-align: middle;
+				font-size: 150%;
+				margin-top: 12px;
+				margin-bottom: 40px;
+			}
+			
+			.title {
+				text-align: center; 
+				margin-top: 60px;
+				margin-bottom: 40px;
+				margin-right: 40px;
+			}
+			
+			.overlay {
+				position: absolute; 
+				left: 15px;
+				top: 50px;
+				background-color: transparent;
+				color: #366092
+			}
+			
+			#name {
+				font-size: 300%
+				background-color: transparent;
+			}
+			
+			#welome {
+				background-color: transparent;
+			}
+			
+			
+	@media screen and (max-width: 600px){
+				.overlay {
+					position: relative; 
+					left: 15px;
+					top: 10px;
+					background-color: transparent;
+					color: #366092
+				}
+				
+				.hero {
+					display: none;
+				}
+				
+				h1{
+					font-size: 180%;
+				}
+				
+				.heading {
+					margin-top: 5px;
+					margin-bottom: 30px;
+				}
+			
+				.image-row {
+					width: 150px; 
+					height: 150px;
+				}
+				
+			}
