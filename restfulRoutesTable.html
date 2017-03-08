@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RESTful Routes Table</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-10">
+				<div class="jumbotron">
+					<h1 id="title">RESTful Routes Table</h1>
+					<p>A table of all 7 RESTful Routes!</p>
+				</div>
+
+				<table class="table table-hover table-bordered">
+					<tr>
+						<th>Name</th>
+						<th>Path</th>
+						<th>HTTP</th>
+						<th>Purpose</th>
+						<th>Mongoose Method</th>
+					</tr>
+					<tr>
+						<td>Index</td>
+						<td>/cats</td>
+						<td>GET</td>
+						<td>Lists all the cats</td>
+						<td>Cat.find()</td>
+					</tr>
+					<tr class="success"> <!--Shows a green background-->
+						<td>New</td>
+						<td>/cats/new</td>
+						<td>GET</td>
+						<td>Shows new cat form</td>
+						<td>N/A</td>
+					</tr>
+					<tr class="success"> <!--Shows a green background-->
+						<td>Create</td>
+						<td>/cats</td>
+						<td>POST</td>
+						<td>Creates a new cat, then redirects somewhere</td>
+						<td>Cat.create()</td>
+					</tr>
+					<tr class="info"> <!--Shows a green background-->
+						<td>Show</td>
+						<td>/cats/:id</td>
+						<td>GET</td>
+						<td>Shows info about one specific cat</td>
+						<td>Cat.findById()</td>
+					</tr>
+					<tr class="warning"> <!--Shows a yellow background-->
+						<td>Edit</td>
+						<td>/cats/:id/edit</td>
+						<td>GET</td>
+						<td>Shows edit form for one spefic cat</td>
+						<td>Cat.findById()</td>
+					</tr>
+					<tr class="warning"> <!--Shows a yellow background-->
+						<td>Update</td>
+						<td>/cats/:id</td>
+						<td>PUT (requires override)</td>
+						<td>Update a particular cat, and then redirects somewhere</td>
+						<td>Cat.findByIdAndUdate()</td>
+					</tr>
+					<tr class="danger"> <!--Shows a red background-->
+						<td>Delete</td>
+						<td>/cats/:id</td>
+						<td>DELETE (requires override)</td>
+						<td>Deletes a particular cat, and then redirects somewhere</td>
+						<td>Cat.findByIdAndRemove()</td>
+					</tr>
+
+				</table>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
